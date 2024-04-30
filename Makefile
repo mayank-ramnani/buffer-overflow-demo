@@ -1,6 +1,5 @@
 CC=clang
-CFLAGS=-g -Wall -O2 -D_FORTIFY_SOURCE=3
-# CFLAGS=-g -Wall 
+CFLAGS=-g -Wall
 
 all: demo
 
@@ -9,3 +8,4 @@ demo: main.c
 
 clean:
 	rm demo
+	rm -r demo.dSYM
