@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define PASSWORD    "secure"
+#define PASSWORD    "temper"
 
 long int authenticate()
 {
